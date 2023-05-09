@@ -65,7 +65,7 @@ gradlew.bat build
 
 ### RabbitMQ setup
 
-There is a file named `AMQPRabbitConfiguration` in this repo (located [here](https://github.com/fabriciorissetto/kotlin-ddd-sample/blob/master/web/src/main/configuration/injection/AMQPRabbitConfiguration.kt)) where the configuration needed by axon to integrate with RabbitMQ (to send end receive persistent messages) is stored. To use that, just remove the comments. 
+There is a file named `AMQPRabbitConfiguration` in this repo (located [here](https://github.com/19stephan93/fintech-platform-ddd-sample/blob/main/web/src/main/configuration/injection/AMQPRabbitConfiguration.kt)) where the configuration needed by axon to integrate with RabbitMQ (to send end receive persistent messages) is stored. To use that, just remove the comments. 
 
 You need a running rabbit, you can start one in a docker container using the following commands:
 
@@ -95,7 +95,7 @@ If you don't want o use an AMQP you can remove this dependencies from the web pr
 
 ### Postman requests
 
-You can trigger all the operations of this project using the requests inside [this json](https://github.com/fabriciorissetto/kotlin-ddd-sample/blob/master/docs/postman_example_requests.json) (just import it on your local postman).
+You can trigger all the operations of this project using the requests inside [this json](https://github.com/19stephan93/fintech-platform-ddd-sample/blob/main/docs/postman_example_requests.json) (just import it on your local postman).
 
 # Backlog
 - [x] Implement Unit Tests examples (Domain layer)
